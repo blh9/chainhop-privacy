@@ -19,12 +19,17 @@
   ul { padding-left: 1.25rem; }
   li { margin: .4rem 0; }
   code { font-size: .9em; }
+  table { border-collapse: collapse; width: 100%; margin: .75rem 0; }
+  th, td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid #ddd; vertical-align: top; }
+  @media (prefers-color-scheme: dark) { th, td { border-bottom-color: #333; } }
+  th { font-size: .85rem; text-transform: uppercase; letter-spacing: .03em; color: #6b6b6b; }
+  @media (prefers-color-scheme: dark) { th { color: #9a9a9a; } }
 </style>
 </head>
 <body>
 
 <h1>Privacy Policy for Chainhop</h1>
-<p class="sub">Last updated: 2 September 2026</p>
+<p class="sub">Last updated: 4 October 2026</p>
 
 <p>
   This policy explains how the Android game <strong>Chainhop</strong>
@@ -34,19 +39,89 @@
 
 <h2>Short version</h2>
 <p>
-  Chainhop does not collect, transmit, or share any personal information. It has no
-  user accounts, no analytics, no advertising, and no in-app purchases. The app does
-  not request permission to access the internet, so it cannot send data anywhere.
+  Chainhop has no accounts, no sign-in, and no analytics, and the developer receives
+  no personal information about you. The game itself stores your progress only on
+  your own device.
+</p>
+<p>
+  Chainhop does show ads, and it does sell optional in-app purchases. Both are
+  operated by Google, not by the developer. Google's advertising SDK collects data
+  about your device — including your advertising ID — in order to show and measure
+  ads. In the European Economic Area, the United Kingdom and Switzerland you are
+  asked to consent before that happens, and you can change your answer at any time.
+  The sections below set out exactly what is collected and by whom.
 </p>
 
-<h2>Information the app does not collect</h2>
+<h2>Who processes what</h2>
+<table>
+  <tr><th>Who</th><th>What they get</th><th>Why</th></tr>
+  <tr>
+    <td>The developer<br>(dawn inc.)</td>
+    <td><strong>Nothing.</strong> No personal data is sent to the developer, and the
+      developer operates no server, account system, or analytics.</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Google AdMob<br>(Google Mobile Ads SDK)</td>
+    <td>Advertising ID, IP address (and the approximate, city-level location derived
+      from it), device and operating-system information, and data about which ads
+      were requested, shown, clicked, or watched to completion.</td>
+    <td>To select, show, cap the frequency of, and measure ads — including the
+      optional rewarded videos you choose to watch.</td>
+  </tr>
+  <tr>
+    <td>Google Play Billing</td>
+    <td>Your purchase and its payment details, handled entirely inside Google Play.</td>
+    <td>To take payment and to tell the app which items you own.</td>
+  </tr>
+</table>
+<p>
+  Google acts as an independent controller for this data. Its handling is governed by
+  the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and
+  described in
+  <a href="https://policies.google.com/technologies/partner-sites">How Google uses
+  information from sites or apps that use our services</a>. You can review and reset
+  your advertising ID, or opt out of ad personalisation entirely, in Android's
+  <em>Settings &rarr; Privacy &rarr; Ads</em>.
+</p>
+
+<h2>Advertising, and your choices</h2>
+<p>
+  Chainhop shows two kinds of ad, both only in the <em>Chain Rush</em> mode:
+</p>
 <ul>
-  <li>No name, email address, phone number, or account of any kind.</li>
-  <li>No device identifiers, advertising ID, or IP address.</li>
-  <li>No location data.</li>
-  <li>No contacts, photos, files, microphone, or camera access.</li>
-  <li>No analytics, crash reporting, or usage tracking.</li>
+  <li>A <strong>full-screen ad</strong> after some Chain Rush runs end. Buying
+    <em>Remove Ads</em> or the <em>Premium Bundle</em> turns these off permanently.</li>
+  <li><strong>Rewarded videos</strong> that you start yourself by tapping a button,
+    in exchange for extra hops, a life, or a cosmetic item. These are always optional
+    and are never shown unless you ask for one. They remain available after you buy
+    Remove Ads, because the purchase removes interruptions rather than rewards.</li>
 </ul>
+<p>
+  If you are in the European Economic Area, the United Kingdom or Switzerland, the
+  app asks for your consent through Google's User Messaging Platform before it
+  requests any ad. If consent is required and you have not given it, Chainhop
+  requests no ads at all and simply runs without them. You can change your choice at
+  any time from inside the game: <em>Shop &rarr; Passes &rarr; Ad privacy &rarr;
+  Options</em>.
+</p>
+<p>
+  Chainhop does not use any third-party ad network other than Google AdMob. No
+  mediation partners are enabled.
+</p>
+
+<h2>In-app purchases</h2>
+<p>
+  Chainhop sells three one-time, non-consumable items: <em>Premium Bundle</em>,
+  <em>Unlimited Lives</em> and <em>Remove Ads</em>. There is no subscription.
+</p>
+<p>
+  Payment is taken by Google Play. The developer never sees or stores your card
+  details, billing address, or name. The app asks Google Play which of these items
+  your Google account owns — when it starts, and when you make a purchase — and
+  records only a yes/no flag per item in its local save file. If a purchase is
+  refunded or cancelled, that check removes the item at the next launch.
+</p>
 
 <h2>Information stored on your device</h2>
 <p>
@@ -58,30 +133,64 @@
   <li>Your selected colour theme and peg style, and which ones you have unlocked.</li>
   <li>Your Chain Rush best runs, kept only on this device.</li>
   <li>Your current life count and the time the last one was used, so lives refill correctly.</li>
+  <li>Whether you own each in-app purchase.</li>
 </ul>
 <p>
-  This data never leaves your device. It is not readable by other apps, and Android
+  This save data never leaves your device, is not readable by other apps, and Android
   deletes it when you uninstall the game. You can clear it at any time through
-  Android's <em>Settings &rarr; Apps &rarr; Chainhop &rarr; Storage &rarr; Clear data</em>.
+  Android's <em>Settings &rarr; Apps &rarr; Chainhop &rarr; Storage &rarr; Clear
+  data</em>. Clearing it does not forfeit a purchase: ownership lives with your Google
+  account and is restored the next time the game starts.
+</p>
+<p>
+  Google's SDKs keep their own data on the device and on Google's systems; that is
+  covered by the Google policies linked above, and deleting the app's data does not
+  reset your advertising ID. You can reset that yourself in Android settings.
 </p>
 
 <h2>Permissions</h2>
 <p>
-  Chainhop requests a single Android permission, <code>VIBRATE</code>, used for
-  haptic feedback when pegs are moved. It requests no internet permission.
+  Chainhop requests <code>VIBRATE</code> for haptic feedback when pegs move, and
+  <code>INTERNET</code> together with <code>ACCESS_NETWORK_STATE</code> because ads
+  and purchases need a network connection. It also declares
+  <code>com.google.android.gms.permission.AD_ID</code>, which is what lets the
+  advertising SDK read the advertising ID.
+</p>
+<p>
+  A few further permissions appear in the installed app because Google's advertising
+  and billing libraries declare them for their own background work — among them
+  <code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code> and
+  <code>BIND_JOB_SERVICE</code>. Chainhop's own code does not use them. The game asks
+  for no access to your location, contacts, photos, files, microphone, or camera.
 </p>
 
 <h2>Children</h2>
 <p>
-  Chainhop collects no personal information from anyone, including children. It
-  contains no advertising, no purchases, and no links out to other services.
+  Chainhop is not directed to children. Its Google Play target audience is 13 and
+  over, and it is not enrolled in the Designed for Families programme. The app does
+  not signal to Google that its users are under the age of consent, so it should not
+  be used by children under 13. The developer does not knowingly collect any
+  information from children; if you believe a child has used the app and you want its
+  advertising identifier reset, you can do that in Android settings, or write to the
+  address below.
+</p>
+
+<h2>Your rights</h2>
+<p>
+  Because the developer holds no personal data about you, there is nothing on the
+  developer's side to access, correct, export, or erase. Requests concerning the data
+  Google holds should be made to Google using the links above; in the game you can
+  withdraw ad consent at any time through <em>Shop &rarr; Passes &rarr; Ad
+  privacy</em>, and you can remove all locally stored data by uninstalling the app or
+  clearing its storage.
 </p>
 
 <h2>Changes to this policy</h2>
 <p>
-  If a future version of Chainhop adds advertising, in-app purchases, or online
-  leaderboards, this policy will be updated before that version is released, and the
-  date at the top will change. Continuing to use the app after an update means the
+  This policy is updated before any release that changes what the app collects, and
+  the date at the top changes with it. The 2 September 2026 version described a build
+  with no ads, no purchases and no internet access; this version covers the first
+  release that has all three. Continuing to use the app after an update means the
   revised policy applies.
 </p>
 
